@@ -1,4 +1,4 @@
-# SistemaDeSorteio
+# Sistema De Sorteio
 ### Desenvolvedor: Thainan Vinicius Katchan
 > Cidade: Sorriso|MT
 
