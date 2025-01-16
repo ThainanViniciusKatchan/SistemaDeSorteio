@@ -1,5 +1,8 @@
 # SistemaDeSorteio
-###Desenvolvedor: Thainan Vinicius Katchan
+### Desenvolvedor: Thainan Vinicius Katchan
+> Cidade: Sorriso|MT
+
+> Pais: Brasil
 _____________________________________________________
 Sistema de sorteio simples com listas
 
