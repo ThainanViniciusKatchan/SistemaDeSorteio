@@ -1,5 +1,5 @@
 # SistemaDeSorteio
-Desenvolvedor: Thainan Vinicius Katchan
+###Desenvolvedor: Thainan Vinicius Katchan
 _____________________________________________________
 Sistema de sorteio simples com listas
 
@@ -7,7 +7,7 @@ O sistema foi projeto usando somente um arquivo HTML e um arquivo CSS para o fro
 
 O back-end é produzido com Python-Flask.
 
-O font-end do sistema é feito com o jinja2 e variáveis do flask.
+O font-end do sistema é feito com o jinja2 e variáveis do Python.
 _____________________________________________________
 ![image](https://github.com/user-attachments/assets/b3158a90-bf5d-43e0-9269-930cf42bfc9a)
 _____________________________________________________
