@@ -3,6 +3,10 @@
 > Cidade: Sorriso|MT
 
 > Pais: Brasil
+
+> Link  Serviço: https://sistemadesorteio.onrender.com/
+> 
+O serviço pode demorar até 60 segundos para iniciar
 _____________________________________________________
 Sistema de sorteio simples com listas
 
