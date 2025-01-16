@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="static/Base.css">
+</head>
+<body>
+
+<nav class="nav">
+    <ul>
+        <a href="/SortearDupla">Sortear Dupla</a>
+        <a href="/">Sorteio Único</a>
+    </ul>
+</nav>
+
+<table>
+    <tbody>
+    <thead>
+        <tr>
+            <th>Nome Na lista</th>
+        </tr>
+        {% for nome in listadenomes %}
+        <tr>
+            <td>{{ nome.nome }}</td>
+        </tr>
+        {% endfor %}
+    </thead>
+    </tbody>
+</table>
+
+<form method="post" class="alinhamento">
+    <div class="Titulo">
+        {% if Duplo == False %}
+        <p>Sorteo Único</p>
+        {% else %}
+        <p>Sorteo Duplo</p>
+        {% endif %}
+    </div>
+    <label>Adicionar nome a lista</label>
+    <input type="text" name="nome" autocomplete="off">
+    <button name="action" value="Adicionar">Adicionar</button>
+    <button name="action" value="limpar lista">Limpar Lista</button>
+    {% if LenLista > 1 %}
+    <button name="action" value="Sortear">Sortear</button>
+    {% else %}
+    <button name="action" value="Sortear" disabled>Sortear</button>
+    {% endif %}
+</form>
+{% if ListaTodosNomes %}
+<table>
+    <tbody>
+    <thead>
+        <tr>
+            <th>Nome Sorteado</th>
+        </tr>
+        {% for nome in ListaTodosNomes %}
+            {% for item in nome %}
+        <tr>
+            <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </thead>
+    </tbody>
+</table>
+{% endif %}
+{% if nome_sorteado %}
+<table>
+    <tbody>
+    <thead>
+        <tr>
+            <th>Duplas Sorteado</th>
+        </tr>
+        <tr>
+            <td>{{ nome_sorteado }}</td>
+        </tr>
+    </thead>
+    </tbody>
+</table>
+{% endif %}
+</body>
+</html>
