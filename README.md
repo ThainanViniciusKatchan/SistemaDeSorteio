@@ -16,11 +16,14 @@ O back-end é produzido com Python-Flask.
 
 O font-end do sistema é feito com o jinja2 e variáveis do Python.
 _____________________________________________________
-![image](https://github.com/user-attachments/assets/b3158a90-bf5d-43e0-9269-930cf42bfc9a)
+![image](https://github.com/user-attachments/assets/ca20e553-a2da-4f3a-a78d-ec886953c6c0)
+
 _____________________________________________________
 Ainda falta arrumar alguns bugs do Front-end, mas a base do sistema é essa:
-![image](https://github.com/user-attachments/assets/97a9746f-2acf-42f2-afcc-7041a67d2369)
+![image](https://github.com/user-attachments/assets/8d38c8e8-d607-442f-9eee-b18efd7b4aa3)
+
 _____________________________________________________
 Ele conta com o sorteio de duplas, e sorteio único:
-![image](https://github.com/user-attachments/assets/9dffa60d-d2e3-4875-9978-22699521ae69)
+![image](https://github.com/user-attachments/assets/5d26b460-ed7b-4407-b77f-1ab7ae9f650f)
+
 
