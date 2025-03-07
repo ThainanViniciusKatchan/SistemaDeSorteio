@@ -134,6 +134,8 @@ button {
     background: #003134;
 
     transition: 1s;
+
+    cursos: pointer;
 }
 
 button:hover {
