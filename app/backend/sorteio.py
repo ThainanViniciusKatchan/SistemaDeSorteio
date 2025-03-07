@@ -7,7 +7,7 @@ listadenomes = []
 
 @app.route('/', methods=['GET', 'POST'])
 def SorteioComNomes():
-    action = request.form.get('action')  # variável para idêntificar as ações do frontend
+    action = request.form.get('action')  # variável para idêntificar as ações dos botões do front-and
     if request.method == 'POST':
         nome = request.form.get('nome')
         # lógica para adicionar nome a lista
